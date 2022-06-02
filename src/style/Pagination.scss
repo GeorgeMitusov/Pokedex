@@ -1,0 +1,68 @@
+.pagination {
+  margin-top: 10px;
+  width: 13%;
+
+  .pgn-btn-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      display: flex;
+      justify-content: center;
+      width: 25%;
+      margin-top: 15px;
+      background-color: #0078d0;
+      border: 0;
+      border-radius: 56px;
+      color: #fff;
+      outline: none;
+      cursor: pointer;
+      font-family: system-ui, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 16px 21px;
+      position: relative;
+      user-select: none;
+      -webkit-user-select: none;
+      transition: .5s ease-in-out;
+    }
+    
+    button:before {
+      background-color: initial;
+      background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+      border-radius: 125px;
+      content: "";
+      height: 60%;
+      left: 4%;
+      opacity: .5;
+      position: absolute;
+      top: 0;
+      transition: all .3s;
+      width: 92%;
+    }
+      
+    button:hover {
+      box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+      transform: scale(1.05);
+    }
+      
+    @media (min-width: 768px) {
+      button {
+        padding: 16px 48px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1715px) {
+  .pagination {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .pagination {
+    width: 30%;
+  }
+}

@@ -1,0 +1,98 @@
+a {
+  text-decoration: none;
+}
+
+.info-wrap {
+  width: 24%;
+  margin: 0.5%;
+}
+
+.overviewInfo {
+  width: 80%;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid #2980B9;
+  background: #2980B9;
+  border-radius: 15px;
+  background: -webkit-linear-gradient(to right, #000000, #6DD5FA, #2980B9); 
+  background: linear-gradient(to right, #2980B9, #65bcff, #2980B9);
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: 1s ease-in-out;
+
+
+  &:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  .card-image {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      // width: 90%;
+    }
+  }
+
+  .poke-card-spinner {
+    display: flex;
+    align-items: center;
+  }
+
+  .poke-request {
+    border: 1px solid yellow;
+  }
+
+  .card-title-wrap {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2980B9;
+
+    h6 {
+      width: 100%;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+
+  .info-wrap {
+    width: 31%;
+    margin: 1%;
+    border-radius: 20px;
+    display: flex;
+   
+    .overviewInfo {
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .info-wrap {
+    width: 48%;
+    display: flex;
+   
+    .overviewInfo {
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .info-wrap {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+   
+    .overviewInfo {
+      width: 100%;
+    }
+  }
+}

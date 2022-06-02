@@ -1,0 +1,153 @@
+.app {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.test {
+  background-color: aqua;
+}
+
+.test-three {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 90vh;
+  background-color: hotpink;
+}
+
+.test-four {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 90vh;
+  background-color: #008000;
+}
+
+
+// .menu {
+//     position: absolute;
+//     background-color: #6929c4;
+//     color: #fff;
+//     z-index: 30;
+//   }
+  
+//   .menu--right {
+//     top: 0;
+//     right: 0;
+//     width: 250px;
+//     height: 100vh;
+//   }
+
+// .test-two {
+//     position: absolute;
+//     background-color: #6929c4;
+//     color: #fff;
+//     z-index: 30;
+      
+//       .menu--right {
+//         top: 0;
+//         right: 0;
+//         width: 250px;
+//         height: 100vh;
+//       }
+// }
+
+// .test-three {
+//     width: 80%;
+//     background-color: aqua;
+//     border: 5px solid hotpink;
+// }
+
+// .popup-box {
+//     position: fixed;
+//     background: #00000050;
+//     width: 100%;
+//     height: 100vh;
+//     top: 0;
+//     left: 0;
+   
+//     .box {
+//         position: relative;
+//         width: 70%;
+//         margin: 0 auto;
+//         height: auto;
+//         max-height: 70vh;
+//         margin-top: calc(100vh - 85vh - 20px);
+//         background: #fff;
+//         border-radius: 4px;
+//         padding: 20px;
+//         border: 1px solid #999;
+//         overflow: auto;
+    
+//         .close-icon {
+//             content: 'x';
+//             cursor: pointer;
+//             position: fixed;
+//             right: calc(15% - 30px);
+//             top: calc(100vh - 85vh - 33px);
+//             background: #ededed;
+//             width: 25px;
+//             height: 25px;
+//             border-radius: 50%;
+//             line-height: 20px;
+//             text-align: center;
+//             border: 1px solid #999;
+//             font-size: 20px;
+//         }
+//     }
+
+// }
+
+// html,
+// body {
+//   width: 100%;
+//   height: 100%;
+//   margin: 0;
+//   padding: 0;
+// }
+
+// body {
+//   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+//     helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+//   background: transparent;
+//   cursor: default;
+//   background-color: #f0f0f0;
+// }
+
+// #root {
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .trails-main {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//   cursor: pointer;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .trails-text {
+//   position: relative;
+//   width: 100%;
+//   height: 80px;
+//   line-height: 80px;
+//   color: rgb(66, 61, 63);
+//   font-size: 5em;
+//   font-weight: 800;
+//   text-transform: uppercase;
+//   will-change: transform, opacity;
+//   overflow: hidden;
+// }
+
+// .trails-text > div {
+//   overflow: hidden;
+// }
