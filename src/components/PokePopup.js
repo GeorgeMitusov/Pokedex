@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
-// import { faStar as anotherFaStar  } from '@fortawesome/free-regular-svg-icons'
 
 import { useSpring, animated } from 'react-spring'
 

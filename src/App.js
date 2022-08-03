@@ -50,7 +50,6 @@ export default function App() {
   }, [currentPageUrl])
 
   useEffect(() => {
-    // CURRENT HOOKS RUNS FIRST 
     const data = localStorage.getItem('favorite');
     if ( data ) {
       const result = JSON.parse(data);
@@ -65,10 +64,8 @@ export default function App() {
 
   function addFav(name) {
     const fav = pokemon.find( el => el.name == name );
-    // searches for a similar to clicked name inside the poke array 
 
     if ( !favPokesData.includes(fav)) {
-      // alert('Pokemon successfully added to FAV')
       setFavPokesData([ ...favPokesData, fav])
       setFavPopupShow(true)
     } 
@@ -79,7 +76,6 @@ export default function App() {
       alert('Removing')
       const items = favPokesData.filter( item => item.name !== name);
       setFavPokesData( items )
-      // setFavPopupShow(false)
 
     } else {
       alert('Add it first')

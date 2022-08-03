@@ -12,7 +12,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
-  // border: 1px solid white;
   
   .search-bar {
     width: 20%;
@@ -52,12 +51,6 @@ body {
       box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
       transform: scale(1.05);
     }
-
-    // @media (min-width: 768px) {
-    //   .showFavButton {
-    //     padding: 16px 48px;
-    //   }
-    // }
   }
 }
 

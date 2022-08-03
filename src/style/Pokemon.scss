@@ -25,8 +25,6 @@ $main-color: #2980B9;
         }
 
         .pokemon-definition {
-            // border: 3px solid red;
-            border: 1px solid black;
             border-bottom: none;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
@@ -34,7 +32,6 @@ $main-color: #2980B9;
             display: flex;
             justify-content: center;
             align-items: center;
-            // background-color: $main-color;
 
             .fav-btn-wrap {
                 
@@ -48,17 +45,14 @@ $main-color: #2980B9;
 
         .poke-main-details {
             background-color: lightcyan;
-            // background-color: lightsteelblue;
 
             .main-top {
-                border: 1px solid black;
                 border-bottom: none;
                 padding: 10px;
                 display: flex;
                 justify-content: space-around;
 
                 .poke-image {
-                    // border: 3px solid white;
                     width: 30%;
                     display: flex;
                     
@@ -68,39 +62,32 @@ $main-color: #2980B9;
                 }
 
                 .poke-main-second-section {
-                    // border: 3px solid yellow;
                     width: 60%;
 
                     .poke-types {
                         padding: 10px;
-                        // background-color: red;
 
                         .poke-type-wrap {
                             padding: 10px;
-                            // border: 1px solid white;
                             display: flex;
                         
                             .poke-type {
                                 padding: 10px;
-                                border: 1px solid black;
                                 width: 50%;
                             }
                         }
                     }
 
                     .poke-stats {
-                        // border: 5px solid violet;
-                        // display: flex;
                         margin: 10px;    
 
                         .poke-stat {
-                            border: 3px solid black;
                             margin: 5px;
                             display: flex;
 
                             .poke-definition {
                                 background-color: $main-color;
-                                padding: 3px;
+                                padding: 6px;
                                 width: 30%;
                                 display: flex;
                                 justify-content: center;
@@ -108,7 +95,6 @@ $main-color: #2980B9;
                             }
 
                             .poke-progress {
-                                border: 1px solid white;
                                 width: 100%;
                                 display: flex;
                                 
@@ -127,22 +113,14 @@ $main-color: #2980B9;
                         }
                     }
                 }
-
-                .poke-main-third-section {
-                    // border: 3px solid greenyellow;
-                    padding: 10px;
-                }
-
             }
             .poke-description {
-                border: 1px solid black;
                 padding: 20px;
             } 
         }
 
         .pokeSpecDetails {
             background-color: white;
-            border: 1px solid black;
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
 
@@ -150,21 +128,17 @@ $main-color: #2980B9;
 
                 .poke-profile-def {
                     background-color: $main-color;
-                    border-bottom: 1px solid black;
                     padding: 1px;
                 }
 
                 .poke-profile-wrap {
-                    // border: 5px solid greenyellow;
 
                     .poke-prof-left {
                         display: flex;
                         flex-direction: column;
                         background-color: lightcyan;
-                        border-bottom: 1px solid black;
 
                         .poke-spec-stat {
-                            // border: 1px solid yellow;
                             margin: 3px;
                             display: flex;
                             justify-content: center;
@@ -172,13 +146,11 @@ $main-color: #2980B9;
                             .poke-spec-definition {
                                 width: 50%;
                                 margin: 1px;
-                                border: 1px solid black;
                             }
 
                             .poke-spec-value {
                                 width: 50%;
                                 margin: 1px;
-                                border: 1px solid black;
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
@@ -186,20 +158,17 @@ $main-color: #2980B9;
 
                             .poke-progress {
                                 width: 100%;
-                                border: 1px solid black;
                                 display: flex;
                                 margin: 1px;
 
                                 .progress {
                                     width: 100%;
                                     padding: 5px;
-                                    // border: 3px solid aqua;
                                     display: flex;
 
                                     .progress-wrap {
                                         padding: 4px;
                                         width: 100%;
-                                        // border: 3px solid green;
                                         display: flex;
 
                                         .progress-bar {
@@ -208,7 +177,6 @@ $main-color: #2980B9;
                                             align-items: center;
                                             padding: 3px;
                                             width: 100%;
-                                            // border: 1px solid blue;
                                         }
                                     }
                                 }
@@ -220,13 +188,11 @@ $main-color: #2980B9;
                     .poke-prof-right {
                         padding: 5px;
                         background-color: $main-color;
-                        // border: 5px solid rebeccapurple;
                         margin: 3px;
                         border-bottom-left-radius: 20px;
                         border-bottom-right-radius: 20px;
 
                         .poke-data-wrap {
-                            // border: 3px solid blue;
                             margin: 3px;
                             display: flex;
                             align-items: center;
@@ -235,12 +201,10 @@ $main-color: #2980B9;
                             .poke-details-descr {
                                 margin: 3px;
                                 width: 100%;
-                                border: 1px solid white;
                             }
 
                             .poke-data-def {
                                 width: 100%;
-                                border: 1px solid white;
                             }
                         }
                     }
@@ -265,183 +229,3 @@ $main-color: #2980B9;
         }
     }
 }
-
-
-// .pokemon {
-//     padding: 100px 0;
-//     border: 3px solid navy;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-
-//     .pokemon-wrap {
-//         background-color: lightgrey;
-//         width: 60%;
-
-//         .pokemon-definition {
-//             height: 80px;
-//             border: 1px solid red;
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//         }
-
-//         .poke-main-details {
-//             border: 10px solid blueviolet;
-//             display: flex;
-//             flex-direction: column;
-//             // justify-content: space-around;
-
-//             .main-top {
-//                 border: 5px solid purple;
-//             }
-
-//             .poke-image {
-//                 border: 1px solid purple;
-//                 width: 40%;
-//                 height: 230px;
-
-//                 img {
-//                     width: 100%;
-//                     height: 250px;
-//                 }
-//             }
-
-//         .poke-description {
-//             border: 1px solid red;
-//             width: 50%;
-//         }
-
-//         .poke-stats {
-//             border: 1px solid greenyellow;
-//             width: 100%;
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: space-around;
-
-//             .poke-stat {
-//             // border: 3px solid purple;
-//             display: flex;
-//             width: 90%;
-//             margin: 5px;
-
-//             .poke-definition {
-//                 // border: 1px solid black;
-//                 width: 20%;
-//                 justify-content: flex-start;
-//                 font-size: small;
-//             }
-            
-//             .poke-progress {
-//                 // border: 1px solid red;
-//                 width: 100%;
-//                 justify-content: flex-end;
-//             }
-//             }
-//         }
-//         }
-
-//     .pokeSpecDetails {
-//         border: 2px solid mediumspringgreen;
-
-//         .poke-profile {
-//             border: 1px solid mediumorchid;
-
-//             .poke-profile-wrap {
-//                 border: 3px solid orange;
-//                 display: flex;
-//                 justify-content: space-around;
-
-//                 .poke-prof-left {
-//                     width: 40%;
-//                     border: 3px solid mediumspringgreen;
-
-//                     .poke-spec-stat {
-//                         border: 3px solid navy;
-//                         margin: 5px;
-//                         height: 40px;
-//                         display: flex;
-//                         justify-content: center;
-
-//                         .poke-spec-definition {
-//                             width: 30%;
-//                             display: flex;
-//                             align-items: center;
-//                             justify-content: center;
-//                         }
-
-//                         .poke-spec-value {
-//                             display: flex;
-//                             align-items: center;
-//                             justify-content: center;
-//                             width: 30%;
-//                         }
-
-//                     }
-
-//                     .poke-stat {
-//                         display: flex;
-//                         width: 100%;
-            
-//                         .poke-definition {
-//                             width: 30%;
-//                             font-size: small;
-//                         }
-                        
-//                         .poke-progress {
-//                             width: 70%;
-
-//                             .progress-wrap {
-//                                 margin-right: 1%;
-//                                 height: 53px;
-//                                 display: flex;
-//                                 flex-direction: row;
-//                                 align-items: center;
-//                             }                                    
-//                         }
-//                     }
-//                 }
-
-//                 .poke-prof-right {
-//                     width: 40%;
-//                     border: 3px solid springgreen;
-
-//                     .poke-data-wrap {
-//                         border: 1px solid purple;
-//                         height: 5   0px;
-//                         margin: 5px;
-//                         display: flex;
-//                         justify-content: space-around;
-//                         align-items: center;
-
-//                         .poke-details-descr {
-//                             border: 1px solid navy;
-//                             width: 30%;
-//                             height: 40px;
-//                             display: flex;
-//                             align-items: center;
-//                             justify-content: center;
-//                         }
-
-//                         .poke-data-def {
-//                             border: 1px solid navy;
-//                             margin: 5px;
-//                             width: 30%;
-//                             height: 35px;
-//                             display: flex;
-//                             align-items: center;
-//                             justify-content: center;
-
-//                             .poke-abilities {
-//                                 border: 1px solid red;
-//                                 display: flex;
-//                             }
-//                         }
-
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
-// }
